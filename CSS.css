@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: "Avenir Next";
+}
+
+li{
+  list-style: none;
+   
+}
+
+ul{
+  margin: 0;
+}
+/*--html1のheader--*/
+
+.header{
+  margin-top: 0px;
+  padding-top: 0px;
+  background-color: rgba(109, 158, 12, 0.8);
+  width:100%;
+  height: 90px;
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+}
+
+.header-logo{
+  font-size: 36px;
+  float: left;
+  padding: 0px 40px;
+  line-height: 90px;
+}
+.header-logo a{
+  color: #fff;
+  display: block;
+  opacity: 0.8;
+}
+
+.header-logo:hover{
+  opacity: 1;
+  transition: 0.5s;
+  background-color: #009900;
+}
+
+.header-list li{
+  float: left;
+  padding: 0px 20px;
+  line-height: 90px;
+  opacity: 0.8;
+}
+
+.header-list li:hover{
+  opacity: 1;
+  transition: 0.5s;
+  background-color: #009900;  
+}
+
+.header-list a{
+  color: #fff;
+  display: block;
+}
+  
+/*--html1のmain--*/
+.main {
+  padding: 90px 0px;
+}
+
+.copy-container{
+  color: #fff;
+  background-image: url(https://lh3.googleusercontent.com/wmXOAPmdAL7jX2qHPNWOSMpZw5TL0UaISBn9VdSVDdl_0olXcdjZ2RWcbuWx1CNMKwquGQw2vyR6ZeLp4v-luGWQDfi__TZQbliTJvVrwANXk_tPVMUyu5U9blfHVlAdmVp5lo4ks_GjOx07mS-3dgZ_cpAv2LoOLa0LQaEss7zUWByeKnLc_fLUyBwrR9RTvteQmk-zkuoRW2bs2rlTk4A8OxwJjmOGtW1fK5ZIASOSsa-tQOwyeCkypbzratQ_xbdEVbhvl157G4ZKNzB1q318YihWlV0Sa6CK1loygSR7xqiJaE6_O0XhWE63RFu8YmzUYWM_1Gv4y2j27VHVdvqspGe90IH8emVwwNUn1Pw7jjLL7XsgtUQI-XtRE3DdzIX2CWW1U0UMzAuTQLPfcauKJAhRyHi6Wg63wjw1qCML-4O4MAws1XAhI08jgzljgvYFWsBmo7xf2kpPrNlnoX1kZBss9Ze2djJX2Rngn_cikUVfRpPHz4ppNPt2j1nm5Uy_eQDv9nuOskqjBtMFyEOrGkcQuAYVcxb2605g2m43-Ru_RmXY5IvbFVZ1WoxWq08HndDt9xV3gA1t7wDQ7Oz_RFSu2v9YwqM4aMHUxuCgSsZ0m-gehtk43gjSifQS4fvfttmXfEtROyHYBMjf6Ea2ivpGOIRriobTFP8x3U0GD1EvPnehSXJGYAu7Xw=w920-h491-no);
+  background-size: cover;
+}
+.copy-container h1 {
+  font-size: 120px;
+  margin: 0px 80px;
+}
+  
+.copy-container h2 {
+  font-size: 40px;
+  margin-left: 80px;
+  margin-bottom: 0px;
+}
+  
+.copy-container span {
+  color: #009900;
+}
+
+  .contents-container{
+    text-align: center;
+    height: 450px;
+  }
+
+
+  .section-title{
+    border-bottom: 2px solid #009900;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+  }
+  
+
+  .item {
+    float: left;
+    width: 33%;
+  } 
+
+  .item-fig{
+    position: relative;
+  }
+
+  .item-fig p{
+    font-weight: bold;
+    position: absolute;
+    font-size: 24px;
+    margin-top: 15px;
+    top: 20px;
+    width: 100%;
+  }
+ 
+  .txt-contents{
+    width: 80%;
+    display: inline-block;
+  }
+/*--html1のfooter--*/
+.footer{
+    background-color: #2f5167;
+    color: #fff;
+    height: 40px;
+    padding: 20px 20px 0px 20px;
+  }
+
+
+  .copy-right{
+      font-size: 10px;
+      text-align: center;
+  }
+  
