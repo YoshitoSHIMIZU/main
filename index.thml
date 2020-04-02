@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>	  	
+<html lang="ja">
+
+<head>
+
+ <meta charset="UTF-8">
+
+ <title>清水嘉人のHP</title>
+ <link rel="stylesheet" href="CSS.css">
+</head>
+
+<body>
+	<div class="header">
+		<div class="header-logo"><a href="index.html">清水嘉人のHP</a>
+		</div>
+		<div class="header-list">
+			<ul>
+				<li class=><a href="index-2.html">このページについて</a></li>
+				<li class=><a href="index-3.html">自己紹介</a></li>
+				<li class=><a href="index-3.html">趣味</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="main">
+		<div class="copy-container">
+			<h1>こんにちは<span>!</span><br>Hello<span>!</span></h1>
+			<h2>清水嘉人 (SHIMIZU Yoshito)のホームページです</h2>
+		</div>
+		
+		<div class="contents-wrapper">
+			<div class="contents-container">
+				<div class="head">
+					<h3 class="section-title">コンテンツ</h3>
+				</div>
+				<div class="contents-items">
+			  		<div class="item">
+						<div class="item-fig">
+                			<img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/html.svg">
+							<p>このページについて</p>
+						</div>
+						<p class="txt-contents">このホームページについての説明です。</p>
+					</div>
+					<div class="item">
+						<div class="item-fig">
+                			<img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/php.svg">
+							<p>自己紹介</p>
+						</div>
+						<p class="txt-contents">このページの作者についての説明です。</p>
+			  		</div>
+					<div class="item">
+						<div class="item-fig">
+                			<img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/ruby.svg">
+							<p>趣味</p>
+						</div>
+						<p class="txt-contents">オリエンテーリングを中心に、作者の趣味について紹介します。</p>
+			  		</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="page">
+
+
+		</div>
+		<div class="intro"></div>
+		<div class="hobby"></div>
+
+	</div>
+
+	<div class="footer">
+		
+		<div class="copy-right">
+			©2020- SHIMIZU Yoshito
+		</div>
+
+
+	</div>
+
+</body>
+
+</html>
+        
